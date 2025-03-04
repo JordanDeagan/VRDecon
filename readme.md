@@ -1,21 +1,24 @@
-# EPA Open Source Reference
+# Decontamination Game
+VR Decontamination Game made for EPA Training events.
 
-## Brief Project Description
+This game provides a short, randomized, and interactive demonstration of decontamination principles. 
 
-This repository contains files for teams to reuse when working in and with EPA Open Source projects.
+Unity Combined with Meta Quest 3 were used to create an interactive experience of personnel or area decontamination
 
-Also, this repository contains the link to [EPA's System Lifecycle Management Policy and Procedure](https://www.epa.gov/irmpoli8/policy-procedures-and-guidance-system-life-cycle-management-slcm) which lays out EPA's Open Source Software Policy and [EPA's Open Source Code Guidance](https://www.epa.gov/developers/open-source-software-and-epa-code-repository-requirements). 
+To use on Meta Quest 3 headsets, download the apk file from the most recent release and install it on your VR device. The recommended tool is Meta Quest Developer Hub. 
+- To use MQDH, download from [Oculus Downloads](https://developer.oculus.com/downloads/), and run the installer after unpacking the zipped folder. 
+- Once the program is running, use the charging cord that comes with the headset or some other data transfer cable for the Quest 3 and plug your headset into the computer. 
+  - You may need to confirm some prompts in the headset to allow the computer to connect to it and transfer data, so make sure the headset is on when you plug it in. 
+- Once the app identifies the headset, select your headset in the Device Manager tab. 
+- From here, open File Explorer to where the apk file is downloaded, and drag the file from Explorer into Meta Quest Developer Hub. 
+- As you are dragging the file over, 2 options for what to do with the file will appear, drop the file on the option on the right. 
+  - You should see a progress bar appear as the program gets installed. 
+- After this, you are free to unplug the headset and open the app. 
+- In the headset's App Library menu, navigate to the Unknown Source section.
+- Collection Game should appear in this menu, simply click it to launch the program.
 
-## For EPA Teams
+> [!CAUTION]
+> While developed on the Quest 3, the program should run on the Quest 2 as long as the Passthrough toggle remains off.
+> The program has not been tested on other headsets. If attempting to install and run on other devices, proceed with caution.
 
-For EPA Teams, we have guidance on how EPA puts our open source software policies into practice on GitHub. Read [EPA's GitHub Guidance.](https://www.epa.gov/webguide/github-guidance)
-
-[EPA's Open Source Project repo](https://github.com/USEPA/open-source-projects) is for EPA teams to reuse file for properly maintaining their open source project. All projects must include a readme.md, license.md, contributing.md file and the disclaimer below.   
-
-### Credits
-
-This repository reused material from [GSA](https://www.gsa.gov/), [18F](https://18f.gsa.gov/) , [Lawrence Livermore National Lab](https://www.llnl.gov/), and from the [Consumer Financial Protection Bureau's policy](https://github.com/cfpb/source-code-policy).
-
-### Disclaimer
-
-The United States Environmental Protection Agency (EPA) GitHub project code is provided on an "as is" basis and the user assumes responsibility for its use.  EPA has relinquished control of the information and no longer has responsibility to protect the integrity , confidentiality, or availability of the information.  Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by EPA.  The EPA seal and logo shall not be used in any manner to imply endorsement of any commercial product or activity by EPA or the United States Government.
+To play, use the grip button (lower button on the back of the controller) on the controller to grab objects. There will be a number of brushes with different lengths and brush sizes that can be used for decontaminating. By default a PPE Model will be present with randomized contaminated sections. A panel to the side has buttons for switching to the area decon mode, switching back to personnel decon, revealing the results of the decon attempt, resetting, and turning on the passthrough feature.
