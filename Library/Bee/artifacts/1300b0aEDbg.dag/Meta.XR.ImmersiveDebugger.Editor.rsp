@@ -120,6 +120,7 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:USE_INPUT_SYSTEM_POSE_CONTROL
+-define:ISDK_OPENXR_HAND
 -define:OVR_UNITY_PACKAGE_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -364,16 +365,16 @@
 -r:"Library/Bee/artifacts/1300b0aEDbg.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.41f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Library/PackageCache/com.meta.xr.sdk.core@68.0.2/Editor/ImmersiveDebugger/AssemblyInfo.cs"
-"Library/PackageCache/com.meta.xr.sdk.core@68.0.2/Editor/ImmersiveDebugger/AssetPostProcessor.cs"
-"Library/PackageCache/com.meta.xr.sdk.core@68.0.2/Editor/ImmersiveDebugger/CompilationProcessor.cs"
-"Library/PackageCache/com.meta.xr.sdk.core@68.0.2/Editor/ImmersiveDebugger/ControllerInspector.cs"
-"Library/PackageCache/com.meta.xr.sdk.core@68.0.2/Editor/ImmersiveDebugger/DebugInspectorInspector.cs"
-"Library/PackageCache/com.meta.xr.sdk.core@68.0.2/Editor/ImmersiveDebugger/DebugMemberInspectorExtensions.cs"
-"Library/PackageCache/com.meta.xr.sdk.core@68.0.2/Editor/ImmersiveDebugger/RuntimeSettingsBuildProcessor.cs"
-"Library/PackageCache/com.meta.xr.sdk.core@68.0.2/Editor/ImmersiveDebugger/Settings.cs"
-"Library/PackageCache/com.meta.xr.sdk.core@68.0.2/Editor/ImmersiveDebugger/Styles.cs"
-"Library/PackageCache/com.meta.xr.sdk.core@68.0.2/Editor/ImmersiveDebugger/Utils.cs"
+"Library/PackageCache/com.meta.xr.sdk.core@72.0.0/Editor/ImmersiveDebugger/AssemblyInfo.cs"
+"Library/PackageCache/com.meta.xr.sdk.core@72.0.0/Editor/ImmersiveDebugger/AssetPostProcessor.cs"
+"Library/PackageCache/com.meta.xr.sdk.core@72.0.0/Editor/ImmersiveDebugger/CompilationProcessor.cs"
+"Library/PackageCache/com.meta.xr.sdk.core@72.0.0/Editor/ImmersiveDebugger/ControllerInspector.cs"
+"Library/PackageCache/com.meta.xr.sdk.core@72.0.0/Editor/ImmersiveDebugger/DebugInspectorInspector.cs"
+"Library/PackageCache/com.meta.xr.sdk.core@72.0.0/Editor/ImmersiveDebugger/DebugMemberInspectorExtensions.cs"
+"Library/PackageCache/com.meta.xr.sdk.core@72.0.0/Editor/ImmersiveDebugger/RuntimeSettingsBuildProcessor.cs"
+"Library/PackageCache/com.meta.xr.sdk.core@72.0.0/Editor/ImmersiveDebugger/Settings.cs"
+"Library/PackageCache/com.meta.xr.sdk.core@72.0.0/Editor/ImmersiveDebugger/Styles.cs"
+"Library/PackageCache/com.meta.xr.sdk.core@72.0.0/Editor/ImmersiveDebugger/Utils.cs"
 -langversion:9.0
 /deterministic
 /optimize-
