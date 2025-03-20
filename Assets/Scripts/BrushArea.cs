@@ -19,7 +19,7 @@ public class BrushArea : BrushAbstract
         scrubbed = false;
     }
 
-    protected override void Scrub()
+    public override void Scrub()
     {
         ColorShift(SucessMaterial);
         scrubbed = true;

@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Broom
   - Whiteboard
+  - PassThroughButton
+  - PassThrough
+  - Model
   layers:
   - Default
   - TransparentFX

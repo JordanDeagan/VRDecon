@@ -67,6 +67,7 @@
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
     <Compile Include="Assets\Scripts\Whiteboard.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
+    <Compile Include="Assets\Scripts\PaintBrush_Area.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
     <Compile Include="Assets\Scripts\BrushAbstract.cs" />
     <Compile Include="Assets\Scripts\CleanAbstract.cs" />
@@ -79,6 +80,7 @@
     <Compile Include="Assets\Scripts\CleanModel.cs" />
     <Compile Include="Assets\Scripts\SwapTarget.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
+    <Compile Include="Assets\Scripts\PassthroughToggle.cs" />
     <Compile Include="Assets\Scripts\PaintBrush_Model.cs" />
     <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
     <Compile Include="Assets\Scripts\CircleDrawer.cs" />

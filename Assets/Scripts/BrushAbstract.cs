@@ -19,16 +19,7 @@ public abstract class BrushAbstract : MonoBehaviour
     //private List<Collider> Touching;
     public abstract void Start();
 
-    public void OnTriggerEnter(Collider other)
-    {
-        if ( other.gameObject.tag == "Broom")
-        {
-            //Touching.Add(other);
-            Scrub();
-        }
-    }
-
-    protected abstract void Scrub();
+    public abstract void Scrub();
 
     public abstract void SetBack();
 

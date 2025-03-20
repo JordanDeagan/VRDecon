@@ -26,7 +26,7 @@ public class BrushModel : BrushAbstract
         timesCleaned = 0;
     }
 
-    protected override void Scrub()
+    public override void Scrub()
     {
         if (timesCleaned < contamLevel)
         {

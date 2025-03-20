@@ -6,7 +6,7 @@ public class ShowPaint : MonoBehaviour
 {
 
     public Whiteboard whiteboard;
-    public PaintBrush_Model brush;
+    public PaintBrush_Area brush;
     public Material displayColor;
     public Material clearColor;
     public Material initColor;
