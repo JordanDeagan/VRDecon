@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\PaintBrush_Area.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
     <Compile Include="Assets\Scripts\BrushAbstract.cs" />
+    <Compile Include="Assets\Scripts\ContaminationList.cs" />
     <Compile Include="Assets\Scripts\CleanAbstract.cs" />
     <Compile Include="Assets\Scripts\CheckBox.cs" />
     <Compile Include="Assets\Scripts\ShowPaint.cs" />

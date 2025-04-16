@@ -468,6 +468,7 @@
 "Assets/Scripts/CleanAbstract.cs"
 "Assets/Scripts/CleanArea.cs"
 "Assets/Scripts/CleanModel.cs"
+"Assets/Scripts/ContaminationList.cs"
 "Assets/Scripts/HandAnimatorController.cs"
 "Assets/Scripts/IsVisual.cs"
 "Assets/Scripts/MatchPosition.cs"

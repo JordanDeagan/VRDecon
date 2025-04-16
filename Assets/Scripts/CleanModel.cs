@@ -11,6 +11,9 @@ public class CleanModel : CleanAbstract
 
     private List<int> contaminatedIndexes;
 
+    [SerializeField]
+    private ContaminationList results;
+
     private void Start()
     {
         RandomizeContamination();
@@ -26,14 +29,17 @@ public class CleanModel : CleanAbstract
             {
                 part.ColorShift(part.SucessMaterial);
                 numCleaned++;
+                results.AddSpot(part.Position, part.SucessMaterial);
             }
             else if (part.timesCleaned > 0)
             {
                 part.ColorShift(part.PartialMaterial);
+                results.AddSpot(part.Position, part.PartialMaterial);
             }
             else
             {
                 part.ColorShift(part.FailMaterial);
+                results.AddSpot(part.Position, part.FailMaterial);
             }
         }
     }

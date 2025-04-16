@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BrushModel : BrushAbstract
 {
@@ -14,12 +15,16 @@ public class BrushModel : BrushAbstract
 
     public bool contaminated;
 
+    private Image popUp;
+
+    public string Position;
+
     //private List<Collider> Touching;
     public override void Start()
     {
-        Mesh = gameObj.GetComponent<MeshRenderer>();
+        popUp = gameObj.GetComponentInChildren<Image>();
 
-        BaseMaterial = Mesh.material;
+        BaseMaterial = popUp.material;
 
         scrubbed = false;
 
@@ -49,7 +54,7 @@ public class BrushModel : BrushAbstract
 
     public override void ColorShift(Material color)
     {
-        Mesh.material = color;
+        popUp.material = color;
     }
 
     public void SetContamination(bool isContaminated, int level)
