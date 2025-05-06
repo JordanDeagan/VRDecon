@@ -61,14 +61,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\IsVisual.cs" />
+    <Compile Include="Assets\ContamItemText.cs" />
     <Compile Include="Assets\Scripts\BrushModel.cs" />
     <Compile Include="Assets\StarterAssets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\CleanArea.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
+    <Compile Include="Assets\Samples\Meta XR Core SDK\72.0.0\Mixed Reality Sample\Scripts\CustomSceneManager\SceneManagerHelper.cs" />
     <Compile Include="Assets\Scripts\Whiteboard.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
     <Compile Include="Assets\Scripts\PaintBrush_Area.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
+    <Compile Include="Assets\Samples\Meta XR Core SDK\72.0.0\Mixed Reality Sample\Scripts\CustomSceneManager\PrefabSceneManager.cs" />
     <Compile Include="Assets\Scripts\BrushAbstract.cs" />
     <Compile Include="Assets\Scripts\ContaminationList.cs" />
     <Compile Include="Assets\Scripts\CleanAbstract.cs" />
@@ -76,15 +79,20 @@
     <Compile Include="Assets\Scripts\ShowPaint.cs" />
     <Compile Include="Assets\Scripts\Calculations.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
+    <Compile Include="Assets\Samples\Meta XR Core SDK\72.0.0\Mixed Reality Sample\Scripts\CustomSceneManager\DynamicSceneManagerHelper.cs" />
+    <Compile Include="Assets\Samples\Meta XR Core SDK\72.0.0\Mixed Reality Sample\Scripts\CustomSceneManager\SnapshotSceneManager.cs" />
     <Compile Include="Assets\Scripts\HandAnimatorController.cs" />
     <Compile Include="Assets\Scripts\MatchPosition.cs" />
+    <Compile Include="Assets\Samples\Meta XR Core SDK\72.0.0\Mixed Reality Sample\Scripts\CustomSceneManager\BasicSceneManager.cs" />
     <Compile Include="Assets\Scripts\CleanModel.cs" />
     <Compile Include="Assets\Scripts\SwapTarget.cs" />
+    <Compile Include="Assets\Samples\Meta XR Core SDK\72.0.0\Mixed Reality Sample\Scripts\SceneModelLoader.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
     <Compile Include="Assets\Scripts\PassthroughToggle.cs" />
     <Compile Include="Assets\Scripts\PaintBrush_Model.cs" />
     <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
     <Compile Include="Assets\Scripts\CircleDrawer.cs" />
+    <Compile Include="Assets\Samples\Meta XR Core SDK\72.0.0\Mixed Reality Sample\Scripts\CustomSceneManager\DynamicSceneManager.cs" />
     <Compile Include="Assets\Scripts\BrushArea.cs" />
     <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
     <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />

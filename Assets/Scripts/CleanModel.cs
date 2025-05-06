@@ -29,17 +29,17 @@ public class CleanModel : CleanAbstract
             {
                 part.ColorShift(part.SucessMaterial);
                 numCleaned++;
-                results.AddSpot(part.Position, part.SucessMaterial);
+                results.AddSpot(part.Position, part.SucessMaterial, part.timesCleaned, part.contamLevel);
             }
             else if (part.timesCleaned > 0)
             {
                 part.ColorShift(part.PartialMaterial);
-                results.AddSpot(part.Position, part.PartialMaterial);
+                results.AddSpot(part.Position, part.PartialMaterial, part.timesCleaned, part.contamLevel);
             }
             else
             {
                 part.ColorShift(part.FailMaterial);
-                results.AddSpot(part.Position, part.FailMaterial);
+                results.AddSpot(part.Position, part.FailMaterial, part.timesCleaned, part.contamLevel);
             }
         }
     }

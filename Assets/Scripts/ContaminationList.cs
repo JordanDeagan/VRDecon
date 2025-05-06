@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ContaminationList : MonoBehaviour
 {
-    private List<string> Spots; //Create a custom object for this list to hold
+    private List<GameObject> Spots; //Create a custom object for this list to hold
+
+    [SerializeField]
+    private GameObject ListPrefab;
 
     // Start is called before the first frame update
     void Start()
@@ -18,8 +22,11 @@ public class ContaminationList : MonoBehaviour
         
     }
 
-    public void AddSpot(string Position, Material Condition)
+    public void AddSpot(string Position, Material Condition, int count, int total)
     {
-        Spots.Add(Position);
+        GameObject newItem = Instantiate(ListPrefab);
+        newItem.GetComponent<Image>().material = Condition;
+        newItem.GetComponentInChildren<ContamItemText>().SetTextValues(Position, count, total);
+        Spots.Add(newItem);
     }
 }
